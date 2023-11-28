@@ -1,0 +1,52 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Nixie One");
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+body {
+    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    font-family: 'Barriecito';
+    color: rgb(2, 1, 1);
+    text-align: center;
+    margin: 20px;
+}
+button {
+    margin-top: 10px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(97, 207, 250, 0.767);
+    border-radius: 10px;
+    text-align: center;
+    content: inherit;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background-color: #555;
+}
+
+footer {
+    position: fixed;
+    font-family: 'Nixie One', sans-serif;
+    bottom: 0;
+    width: 100%;
+    background: rgb(255, 189, 255);
+    text-align: center;
+    padding: 10px;
+    color: #000;
+}
